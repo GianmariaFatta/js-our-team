@@ -44,7 +44,7 @@ const ourTeam= [{
     
 ]
    
-console.log(ourTeam[1])
+
 
 for(i=0 ; i<ourTeam.length; i++)
 memberElement.innerHTML+=  `<div id="members" class=""><b> ${ourTeam[i].name} </b> 
