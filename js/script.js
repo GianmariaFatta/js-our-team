@@ -48,8 +48,8 @@ const ourTeam= [{
 
 for(i=0 ; i<ourTeam.length; i++){ 
     memberElement.innerHTML+=`<div class="card">
-    <img src="img/${ourTeam[i].image}" alt="">
-    <div id="members" class=""><b> ${ourTeam[i].name} </b> ${ourTeam[i].role}</div>
+    <img class="mb-3 bg-white" src="img/${ourTeam[i].image}" alt="">
+    <div id="members" class="cool"><span class=""><b> ${ourTeam[i].name} </b></span> <span class="d-block">${ourTeam[i].role}</span></div>
 </div>`}
 // memberElement.innerHTML+= `<div class"card"><div id="members" class=""><b> ${ourTeam[i].name} </b> 
 // ${ourTeam[i].role}</div>
