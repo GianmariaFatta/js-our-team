@@ -46,8 +46,9 @@ const ourTeam= [{
    
 
 
-for(i=0 ; i<ourTeam.length; i++)
+for(i=0 ; i<ourTeam.length; i++){
 memberElement.innerHTML+=  `<div id="members" class=""><b> ${ourTeam[i].name} </b> 
 ${ourTeam[i].role}</div>
 
 <p><img src="img/${ourTeam[i].image}"</p> <hr> `
+ }
