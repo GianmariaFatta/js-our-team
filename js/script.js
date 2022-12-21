@@ -46,9 +46,13 @@ const ourTeam= [{
    
 
 
-for(i=0 ; i<ourTeam.length; i++){
-memberElement.innerHTML+=  `<div id="members" class=""><b> ${ourTeam[i].name} </b> 
-${ourTeam[i].role}</div>
+for(i=0 ; i<ourTeam.length; i++){ 
+    memberElement.innerHTML+=`<div class="card">
+    <img src="img/${ourTeam[i].image}" alt="">
+    <div id="members" class=""><b> ${ourTeam[i].name} </b> ${ourTeam[i].role}</div>
+</div>`}
+// memberElement.innerHTML+= `<div class"card"><div id="members" class=""><b> ${ourTeam[i].name} </b> 
+// ${ourTeam[i].role}</div>
 
-<p><img src="img/${ourTeam[i].image}"</p> <hr> `
- }
+// <figure><img src="img/${ourTeam[i].image}"</figure></div> <hr> `
+//  }
